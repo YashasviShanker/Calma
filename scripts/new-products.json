@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Elegant White Dress",
+    "price": 129.99,
+    "description": "A stunning white dress perfect for summer occasions",
+    "category": "Dresses",
+    "images": [
+      "/images/products/product-11.jpg"
+    ]
+  },
+  {
+    "name": "Classic Leather Boots",
+    "price": 189.99,
+    "description": "Handcrafted leather boots for timeless style",
+    "category": "Footwear",
+    "images": [
+      "/images/products/product-12.jpg"
+    ]
+  },
+  {
+    "name": "Designer Handbag",
+    "price": 299.99,
+    "description": "Premium leather handbag with gold accents",
+    "category": "Accessories",
+    "images": [
+      "/images/products/product-13.jpg"
+    ]
+  },
+  {
+    "name": "Silk Evening Gown",
+    "price": 449.99,
+    "description": "Elegant silk evening gown in deep burgundy",
+    "category": "Dresses",
+    "images": [
+      "/images/products/product-14.jpg"
+    ]
+  },
+  {
+    "name": "Premium Watch",
+    "price": 599.99,
+    "description": "Luxury timepiece with leather strap",
+    "category": "Accessories",
+    "images": [
+      "/images/products/product-15.jpg"
+    ]
+  }
+]

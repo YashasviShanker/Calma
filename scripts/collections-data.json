@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Summer Collection",
+    "description": "Light and breezy pieces perfect for summer days",
+    "image": "/images/collections/summer-collection.jpg"
+  },
+  {
+    "name": "Winter Collection",
+    "description": "Cozy and warm essentials for the cold season",
+    "image": "/images/collections/winter-collection.jpg"
+  },
+  {
+    "name": "Casual Collection",
+    "description": "Everyday comfort meets style",
+    "image": "/images/collections/casual-collection.jpg"
+  },
+  {
+    "name": "Sports Collection",
+    "description": "Performance wear for active lifestyles",
+    "image": "/images/collections/sports-collection.jpg"
+  },
+  {
+    "name": "Evening Collection",
+    "description": "Elegant attire for special occasions",
+    "image": "/images/collections/evening-collection.jpg"
+  }
+]
