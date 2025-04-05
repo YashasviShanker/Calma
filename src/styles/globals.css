@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8B0000;
+  --color-secondary: #1A1A1A;
+  --color-accent: #F5F5DC;
+  --color-text: #333333;
+  --color-background: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2 rounded-none hover:bg-opacity-90 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply border border-secondary text-secondary px-6 py-2 rounded-none hover:bg-secondary hover:text-white transition-all duration-300;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .product-card {
+    @apply bg-white p-4 hover:shadow-lg transition-shadow duration-300;
+  }
+
+  .nav-link {
+    @apply text-secondary hover:text-primary transition-colors duration-300;
+  }
+}
+
+/* Custom Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hover Effects */
+.hover-scale {
+  @apply transition-transform duration-300;
+}
+
+.hover-scale:hover {
+  @apply transform scale-105;
+}
+
+/* Typography Styles */
+.heading-xl {
+  @apply font-playfair text-4xl md:text-5xl lg:text-6xl font-bold;
+}
+
+.heading-lg {
+  @apply font-playfair text-3xl md:text-4xl font-bold;
+}
+
+.heading-md {
+  @apply font-playfair text-2xl md:text-3xl font-semibold;
+}
+
+.body-text {
+  @apply font-inter text-base leading-relaxed;
+}
+
+/* Grid Layouts */
+.products-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.collections-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+} 
